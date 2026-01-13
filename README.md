@@ -56,7 +56,7 @@ Sistema robusto para tradução de textos utilizando Azure Translator API, com g
   - [ ] Otimização de requests (batching)
 
 - **Melhorias no Fluxo de Tradução**
-  - [ ] Cache de traduções
+  - [ ] Sistema de cache para traduções recorrentes
   - [ ] Detecção automática de idioma
   - [ ] Suporte a múltiplos idiomas destino
   - [ ] Processamento em lote (batch translation)
