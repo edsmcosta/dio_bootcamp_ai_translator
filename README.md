@@ -100,6 +100,14 @@ AZURE_TRANSLATOR_API_KEY=sua-chave-aqui
 AZURE_TRANSLATOR_REGION=brazilsouth
 ```
 
+> **📌 Nota para usuários do Google Colab:**
+>
+> Para utilizar o arquivo `.env` no Google Colab:
+> 1. Baixe o arquivo `.env.example` deste repositório
+> 2. Renomeie para `.env` e atualize os valores com suas próprias credenciais do serviço Azure
+> 3. Faça upload do arquivo `.env` na pasta raiz dos arquivos da sua sessão do Colab (painel "Arquivos" à esquerda)
+> 4. O código irá carregar automaticamente as variáveis de ambiente a partir deste arquivo
+
 ### Opção 3: Input Interativo
 
 O sistema solicitará a chave via `getpass` se nenhuma fonte anterior estiver disponível.
